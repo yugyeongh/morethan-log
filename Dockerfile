@@ -18,7 +18,7 @@ COPY . .
 RUN yarn build
 
 #container port setting 
-EXPOSE 8000
+EXPOSE 8080
 
 #appplication execute
 CMD ["yarn", "start"]
